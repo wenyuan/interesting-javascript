@@ -1,6 +1,6 @@
 # Head First JavaScript
 
-> 深入浅出JavaScript，重学JavaScript，JavaScript学习笔记，JavaScript知识点记录
+> 深入浅出JavaScript，死磕JavaScript，每天进步一点点
 
 ## 一、编译原理
 1. JavaScript是一门编译语言  
