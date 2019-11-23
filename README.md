@@ -1,14 +1,15 @@
 # Head First JavaScript
 
-> 深入浅出JavaScript，死磕JavaScript，每天进步一点点
+> 深入浅出JavaScript，死磕JavaScript，每天进步一点点  
 > 预计从两个维度入手：JavaScript深入学习、JavaScript专题学习
 
 ## 进度
-JavaScript深入学习，进行中 。
+JavaScript深入学习，进行中 。  
 Fighting Day By Day！
 
 ## 深入系列目录
 1. [作用域和闭包](https://github.com/winyuan/head-frist-javascript/blob/master/articles/深入系列/JavaScript深入之作用域和闭包.md)   
+ 
     ● 编译原理  
     ● 作用域  
     ● 词法作用域
