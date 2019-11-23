@@ -1,7 +1,7 @@
 # Head First JavaScript
 
-> 深入浅出JavaScript，死磕JavaScript，每天进步一点点  
-> 预计从两个维度入手：JavaScript深入学习、JavaScript专题学习
+> 深入浅出JavaScript，每天进步一点点！  
+> 预计从两个维度入手：JavaScript深入学习、JavaScript专题学习。
 
 ## 进度
 JavaScript深入学习，进行中 。  

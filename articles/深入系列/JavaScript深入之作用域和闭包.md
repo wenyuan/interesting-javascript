@@ -45,3 +45,61 @@
 6. JavaScript中有两个机制可以“欺骗”词法作用域：`eval(...)` 和 `with`，但都不建议使用。  
     原因一：会导致性能下降。因为在编译阶段，JavaScript无法确认 `eval(...)` 中的代码和传递给 `with` 的内容，所以引擎无法在编译时对作用域查找进行优化。  
     原因二：`eval(...)` 和 `with` 会被严格模式所影响，甚至禁止。
+7. `eval` 代码示例
+    `eval(...)` 函数可以接受一个字符串为参数，并将其中的内容（代码）当作本来就在那里的一样来处理。
+```javascript
+function foo(str, a) {
+  eval(str) // 欺骗
+  console.log(a, b)
+}
+
+var b = 2
+foo('var b = 3', 1) // 1, 3
+```
+8. `with` 代码示例
+    `with` 可以作为引用同一个对象的快捷方式，使用 `with` 就不需要重复引用对象本身。
+```javascript
+var obj1 = {
+  a: 1,
+  b: 2,
+  c: 3
+}
+
+// 重复的引用了obj
+obj.a = 2
+obj.b = 3
+obj.c = 4
+
+// 使用with当作快捷方式
+with (obj) {
+  a = 3
+  b = 4
+  c = 5
+}
+```
+&emsp;&emsp;但是会有变量泄露到全局作用域问题：
+```javascript
+function foo(obj) {
+  with (obj) {
+    a = 2
+  }
+}
+
+var o1 = {
+  a: 3
+}
+
+var o2 = {
+  b: 3
+}
+
+foo(o1)
+console.log(o1.a) // 2
+
+foo(o2)
+console.log(o2.a) // undefined
+console.log(a) // 2 —— a被泄露到全局作用域上了！
+```
+&emsp;&emsp;当我们传递 `o2` 给 `with` 时，`with` 所声明的作用域是 `o2`，其中并没有 `a` 标识符，因此进行了正常的**LHS标识符查询**，接下来由于`o2`作用域、`foo(...)`作用域和全局作用域中都没有找到标识符`a`，所以当 `a = 2` 执行时，就自动创建了一个全局变量（非严格模式）。
+
+## 四、函数作用域
