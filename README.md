@@ -1,5 +1,16 @@
 # Head First JavaScript
 
+<p align="center">
+  <img src="https://www.wenyuanblog.com/medias/logo/javascript.png" alt="wenyuanblog.com" width="160" hegiht="160"/>
+</p>
+
+<p align="center">
+  <img alt="language" src="https://img.shields.io/badge/language-md-brightgreen.svg?style=flat-square">
+  <img alt="license" src="https://img.shields.io/badge/license-MIT-green.svg?style=flat-square">
+  <img alt="version" src="https://img.shields.io/badge/version-2019-blue.svg?style=flat-square">
+  <img alt="keywords" src="https://img.shields.io/badge/keywords-javascript-blue.svg?style=flat-square">
+</p>
+
 > 深入浅出JavaScript，每天进步一点点！  
 > 预计从两个维度入手：JavaScript深入学习、JavaScript专题学习。
 
@@ -9,7 +20,7 @@ Fighting Day By Day！
 
 ## 深入系列目录
 1. [作用域和闭包](https://github.com/winyuan/head-frist-javascript/blob/master/articles/深入系列/JavaScript深入之作用域和闭包.md)   
- 
+
     ● 编译原理  
     ● 作用域  
     ● 词法作用域
