@@ -125,7 +125,6 @@ foo()
 })()
 ```
 &emsp;&emsp;函数声明和函数表达式之间最重要的区别是它们的名称标识符会绑定在何处。
-
 ```javascript
 // 函数声明：foo被绑定在所在作用域中，可以直接通过foo()来调用它
 function foo() { ... }
@@ -133,4 +132,53 @@ function foo() { ... }
 // 函数表达式：foo被绑定在函数表达式自身的函数中，避免了污染外部作用域
 (function foo() { ... })
 ```
+4. **匿名** 和 **具名**
+```javascript
+// 匿名函数表达式
+setTimeout(function() {
+  console.log('I waited 1 second!')
+}, 1000)
+
+// 具名函数表达式
+setTimeout(function timeoutHandler() {
+  console.log('I waited 1 second!')
+}, 1000)
+```
+&emsp;&emsp;**Tips：**  
+&emsp;&emsp;① 函数表达式可以是匿名的，而函数声明不可以省略函数名。  
+&emsp;&emsp;② 始终给函数表达式命名时一个最佳实践。
+
+5. 立即执行函数表达式
+    **立即执行函数表达式（IIFE）**是社区定义的一个术语（Immediately Invoked Function Expression）。  
+    函数被包含在一对`( )`括号内部，就成为了一个表达式，通过在表达式末尾加上另外一个 `( )` 可以立即执行这个函数。比如 `(function foo(){...})()`。
+6. 立即执行函数表达式的三种形式
+```javascript
+// 带函数名的IIFE
+(function foo() {
+  console.log('带函数名的IIFE')
+})()
+
+// 匿名的IIFE
+(function() {
+  console.log('匿名的IIFE')
+})()
+
+// 用来调用的()括号被移到用来包装的()括号中
+(function() {
+  console.log('用来调用的()括号被移到用来包装的()括号中')
+}())
+```
+7. 把IIFE当作函数调用并传递参数进去
+```javascript
+var a = 2
+(function IIFE(global) {
+  var a = 3
+  console.log(a) // 3
+  console.log(global.a) // 2
+})(window)
+
+console.log(a) // 2
+```
+
+## 五、块作用域
 
