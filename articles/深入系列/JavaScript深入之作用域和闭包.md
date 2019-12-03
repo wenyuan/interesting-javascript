@@ -18,6 +18,7 @@
     对于JavaScript来说，大部分情况下编译发生在代码执行前的几微妙（甚至更短）。  
     JavaScript引擎用尽了各种办法（比如JIT，可以延迟编译甚至实施重编译）来保证性能最佳。 
 
+
 ## 二、作用域
 1. 参与程序处理的三个成员  
     **引擎**  
@@ -40,6 +41,7 @@
     如果RHS查询在所有嵌套的作用域中都找不到所需的变量，引擎就会抛出 `ReferenceError` 异常；  
     如果LHS查询在所有嵌套的作用域中都找不到所需的变量，全局作用域中就会自动隐式地创建一个具有该名称的变量（非严格模式），或者抛出 `ReferenceError` 异常（严格模式下）；  
     如果RHS查询找到了一个变量，但是你对这个变量的值进行不合理的操作，引擎就会抛出 `TypeError` 异常。
+
 
 ## 三、词法作用域
 1. 词法作用域就是定义在词法阶段的作用域。（词法阶段：编译的第一个阶段，将字符串分解成单词）
@@ -113,6 +115,7 @@ console.log(o2.a) // undefined
 console.log(a) // 2 —— a被泄露到全局作用域上了！
 ```
 &emsp;&emsp;当我们传递 `o2` 给 `with` 时，`with` 所声明的作用域是 `o2`，其中并没有 `a` 标识符，因此进行了正常的**LHS标识符查询**，接下来由于`o2`作用域、`foo(...)`作用域和全局作用域中都没有找到标识符`a`，所以当 `a = 2` 执行时，就自动创建了一个全局变量（非严格模式）。
+
 
 ## 四、函数作用域
 1. 函数作用域是指，属于这个函数的全部变量都可以在整个函数的范围内使用及复用。（事实上在嵌套的作用域中也可以使用）
@@ -239,3 +242,78 @@ if (foo) {
 console.log(a) // 3
 console.log(b) // ReferenceError!
 ```
+
+
+## 六、提升
+1. 什么是提升  
+    在JavaScript中，无论作用域中的声明出现在声明地方，在编译阶段都会将**变量和函数声明**从它们在代码中出现的位置被“移动”到最上面。
+
+2. 包括变量和函数在内的所有声明都会在任何代码被执行前首先被处理。
+```javascript
+a = 2
+var a
+console.log(a) // 2
+```
+
+3. JavaScript会将一个声明赋值语句（`var a = 2`）看成两个声明：`var a` 和 `a = 2`。  
+    第一个定义声明是在编译阶段进行的，第二个赋值声明会被**留在原地**等待执行阶段。
+```javascript
+console.log(a) // undefined
+var a = 2
+```
+
+4. 函数声明会被提升，但是函数表达式却不会被提升。  
+    下面代码中 `foo` 是一个函数表达式而不是函数声明，故在执行 `foo()` 时并没有被赋值，对一个 `undefined` 值进行函数调用就导致了非法操作，抛出 TypeError 异常。
+```javascript
+foo() // 不是 ReferenceError，而是 TypeError!
+
+var foo = function bar() {
+  // ...
+}
+```
+
+5. 即使是具名的函数表达式，名称标识符在赋值之前也无法在所在作用域中使用。
+```javascript
+foo() // TypeError
+bar() // ReferenceError
+
+var foo = function bar() {
+  // ...
+}
+```
+
+6. **函数优先**  
+    函数会首先被提升，然后才是变量。
+```javascript
+foo()  // 1
+
+var foo
+
+function foo() {
+  console.log(1)
+}
+
+foo = function() {
+  console.log(2)
+}
+```
+&emsp;&emsp;上述代码中，尽管 `var foo` 出现在 `function foo(){}` 之前，但它是**重复的声明**（函数声明会被提升到普通变量之前），因此被忽略了 。
+
+7. 重复的var声明会被覆盖掉，但**出现在后面的函数声明还是可以覆盖前面的**。  
+```javascript
+foo() // 3
+
+function foo() {
+  console.log(1)
+}
+
+var foo = function() {
+  console.log(2)
+}
+
+function foo() {
+  console.log(3)
+}
+```
+
+8. 综上所述，在同一个作用域中进行重复定义是非常糟糕的，而且经常会导致各种奇怪的问题。
