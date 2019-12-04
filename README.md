@@ -19,11 +19,15 @@ JavaScript深入学习，进行中 。
 Fighting Day By Day！
 
 ## 深入系列目录
-1. [作用域和闭包](https://github.com/winyuan/head-frist-javascript/blob/master/articles/深入系列/JavaScript深入之作用域和闭包.md)   
+1. [JavaScript深入之作用域](https://github.com/winyuan/head-frist-javascript/blob/master/articles/深入系列/JavaScript深入之作用域.md)   
 
     ● 编译原理  
     ● 作用域  
     ● 词法作用域
+    ● 函数作用域
+    ● 块作用域
+    ● 提升
+2. [JavaScript深入之闭包](https://github.com/winyuan/head-frist-javascript/blob/master/articles/深入系列/JavaScript深入之闭包.md)
 
 ## 专题系列目录
 暂未开始

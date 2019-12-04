@@ -1,6 +1,6 @@
-# JavaScript深入之作用域和闭包
+# JavaScript深入之作用域
 
-> Scope & Closures
+> 从JavaScript编译原理展开，深入理解JavaScript的作用域、词法作用域、函数作用域和块作用域。
 
 ## 一、编译原理
 1. JavaScript是一门编译语言  
