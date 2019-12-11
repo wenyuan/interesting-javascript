@@ -45,8 +45,9 @@ function bar(fn) {
 
 foo() // 2
 ```
-&emsp;&emsp;再举个例子：
+&emsp;&emsp;再举个例子：  
 &emsp;&emsp;间接传递函数。
+
 ```javascript
 var fn
 
