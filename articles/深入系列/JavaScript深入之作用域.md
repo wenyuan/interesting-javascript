@@ -167,7 +167,7 @@ setTimeout(function timeoutHandler() {
 &emsp;&emsp;② 始终给函数表达式命名时一个最佳实践。
 
 5. 立即执行函数表达式  
-    **立即执行函数表达式（IIFE）**是社区定义的一个术语（Immediately Invoked Function Expression）。  
+    **立即执行函数表达式（IIFE）** 是社区定义的一个术语（Immediately Invoked Function Expression）。  
     函数被包含在一对`( )`括号内部，就成为了一个表达式，通过在表达式末尾加上另外一个 `( )` 可以立即执行这个函数。比如 `(function foo(){...})()`。
 
 6. 立即执行函数表达式的三种形式
