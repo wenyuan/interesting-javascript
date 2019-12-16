@@ -27,7 +27,10 @@ Fighting Day By Day！
     ● 函数作用域  
     ● 块作用域  
     ● 提升
-2. [JavaScript深入之闭包](https://github.com/winyuan/head-frist-javascript/blob/master/articles/深入系列/JavaScript深入之闭包.md)
+2. [JavaScript深入之闭包](https://github.com/winyuan/head-frist-javascript/blob/master/articles/深入系列/JavaScript深入之闭包.md)  
+    ● 什么是闭包  
+    ● 循环和闭包（进阶）  
+    ● 块作用域+闭包（常用）
 
 ## 专题系列目录
 暂未开始
