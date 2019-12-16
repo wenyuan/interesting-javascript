@@ -20,7 +20,6 @@ Fighting Day By Day！
 
 ## 深入系列目录
 1. [JavaScript深入之作用域](https://github.com/winyuan/head-frist-javascript/blob/master/articles/深入系列/JavaScript深入之作用域.md)   
-
     ● 编译原理  
     ● 作用域  
     ● 词法作用域  
