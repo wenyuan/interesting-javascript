@@ -30,6 +30,8 @@ Fighting Day By Day！
     ● 什么是闭包  
     ● 循环和闭包（进阶）  
     ● 块作用域+闭包（常用）
+3. [JavaScript深入之this关键字](https://github.com/winyuan/head-frist-javascript/blob/master/articles/深入系列/JavaScript深入之this关键字.md)  
+    ● 关于this
 
 ## 专题系列目录
 暂未开始
