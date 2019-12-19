@@ -18,6 +18,7 @@
 JavaScript深入学习，进行中 。  
 Fighting Day By Day！
 
+
 ## 深入系列目录
 1. [JavaScript深入之作用域](https://github.com/winyuan/head-frist-javascript/blob/master/articles/深入系列/JavaScript深入之作用域.md)   
     ● 编译原理  
@@ -33,13 +34,16 @@ Fighting Day By Day！
 3. [JavaScript深入之this关键字](https://github.com/winyuan/head-frist-javascript/blob/master/articles/深入系列/JavaScript深入之this关键字.md)  
     ● 关于this
 
+
 ## 专题系列目录
 暂未开始
-    
+
+
 ## 勘误及提问
 如果有疑问或者发现错误，可以在 issues 进行提问或勘误。
 
 如果喜欢或者有所启发，欢迎 star，对作者也是一种鼓励。
+
 
 ## 友情链接
 * [我的博客主页](https://www.wenyuanblog.com/)
