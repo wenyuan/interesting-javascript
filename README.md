@@ -32,7 +32,12 @@ Fighting Day By Day！
     ● 循环和闭包（进阶）  
     ● 块作用域+闭包（常用）
 3. [JavaScript深入之this关键字](https://github.com/winyuan/head-frist-javascript/blob/master/articles/深入系列/JavaScript深入之this关键字.md)  
-    ● 关于this
+    ● 关于this  
+    ● 调用位置  
+    ● 绑定规则  
+    ● 四条规则  
+    ● 绑定规则优先级  
+    ● ES6 中的箭头函数
 
 
 ## 专题系列目录
