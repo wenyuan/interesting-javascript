@@ -42,6 +42,11 @@ Fighting Day By Day！
   * 绑定规则优先级
   * ES6 中的箭头函数
 
+* [JavaScript深入之对象](https://github.com/winyuan/head-frist-javascript/blob/master/articles/深入系列/JavaScript深入之对象.md)
+  * 定义对象的方式
+  * 内置对象
+  * 对象内容（属性）
+
 ## 专题系列目录
 暂未开始
 
