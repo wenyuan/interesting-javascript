@@ -21,6 +21,8 @@ Fighting Day By Day！
 
 
 ## 深入系列目录
+* [JavaScript深入之序论](https://github.com/winyuan/head-frist-javascript/blob/master/articles/深入系列/JavaScript深入之序论.md)
+
 * [JavaScript深入之数据类型](https://github.com/winyuan/head-frist-javascript/blob/master/articles/深入系列/JavaScript深入之数据类型.md)
   * 数据类型概述
   * 数据类型详解
