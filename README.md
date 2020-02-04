@@ -26,12 +26,12 @@ Fighting Day By Day！
   • 数据类型概述  
   • 数据类型详解  
 3. [JavaScript深入之作用域](https://github.com/winyuan/head-frist-javascript/blob/master/articles/深入系列/JavaScript深入之作用域.md)  
-  3.1 编译原理  
-  3.2 作用域  
-  3.3 词法作用域  
-  3.4 函数作用域  
-  3.5 块作用域  
-  3.6 提升  
+  ● 编译原理  
+  ● 作用域  
+  ● 词法作用域  
+  ● 函数作用域  
+  ● 块作用域  
+  ● 提升  
 4. [JavaScript深入之闭包](https://github.com/winyuan/head-frist-javascript/blob/master/articles/深入系列/JavaScript深入之闭包.md)  
   4.1 什么是闭包  
   4.2 循环和闭包（进阶）  
