@@ -23,8 +23,8 @@ Fighting Day By Day！
 ## 深入系列目录
 1. [JavaScript深入之序论](https://github.com/winyuan/head-frist-javascript/blob/master/articles/深入系列/JavaScript深入之序论.md)  
 2. [JavaScript深入之数据类型](https://github.com/winyuan/head-frist-javascript/blob/master/articles/深入系列/JavaScript深入之数据类型.md)  
-  2.1 数据类型概述  
-  2.2 数据类型详解  
+  • 数据类型概述  
+  • 数据类型详解  
 3. [JavaScript深入之作用域](https://github.com/winyuan/head-frist-javascript/blob/master/articles/深入系列/JavaScript深入之作用域.md)  
   3.1 编译原理  
   3.2 作用域  
