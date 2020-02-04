@@ -21,37 +21,32 @@ Fighting Day By Day！
 
 
 ## 深入系列目录
-* [JavaScript深入之序论](https://github.com/winyuan/head-frist-javascript/blob/master/articles/深入系列/JavaScript深入之序论.md)
-
-* [JavaScript深入之数据类型](https://github.com/winyuan/head-frist-javascript/blob/master/articles/深入系列/JavaScript深入之数据类型.md)
-  * 数据类型概述
-  * 数据类型详解
-
-* [JavaScript深入之作用域](https://github.com/winyuan/head-frist-javascript/blob/master/articles/深入系列/JavaScript深入之作用域.md) 
-  * 编译原理
-  * 作用域
-  * 词法作用域
-  * 函数作用域
-  * 块作用域
-  * 提升
-
-* [JavaScript深入之闭包](https://github.com/winyuan/head-frist-javascript/blob/master/articles/深入系列/JavaScript深入之闭包.md)
-  * 什么是闭包
-  * 循环和闭包（进阶）
-  * 块作用域+闭包（常用）
-
-* [JavaScript深入之this关键字](https://github.com/winyuan/head-frist-javascript/blob/master/articles/深入系列/JavaScript深入之this关键字.md)
-  * 关于this
-  * 调用位置
-  * 绑定规则
-  * 四条规则
-  * 绑定规则优先级
-  * ES6 中的箭头函数
-
-* [JavaScript深入之对象](https://github.com/winyuan/head-frist-javascript/blob/master/articles/深入系列/JavaScript深入之对象.md)
-  * 定义对象的方式
-  * 内置对象
-  * 对象内容（属性）
+1. [JavaScript深入之序论](https://github.com/winyuan/head-frist-javascript/blob/master/articles/深入系列/JavaScript深入之序论.md)
+2. [JavaScript深入之数据类型](https://github.com/winyuan/head-frist-javascript/blob/master/articles/深入系列/JavaScript深入之数据类型.md)
+  2.1 数据类型概述
+  2.2 数据类型详解
+3. [JavaScript深入之作用域](https://github.com/winyuan/head-frist-javascript/blob/master/articles/深入系列/JavaScript深入之作用域.md) 
+  3.1 编译原理
+  3.2 作用域
+  3.3 词法作用域
+  3.4 函数作用域
+  3.5 块作用域
+  3.6 提升
+4. [JavaScript深入之闭包](https://github.com/winyuan/head-frist-javascript/blob/master/articles/深入系列/JavaScript深入之闭包.md)
+  4.1 什么是闭包
+  4.2 循环和闭包（进阶）
+  4.3 块作用域+闭包（常用）
+5. [JavaScript深入之this关键字](https://github.com/winyuan/head-frist-javascript/blob/master/articles/深入系列/JavaScript深入之this关键字.md)
+  5.1 关于this
+  5.2 调用位置
+  5.3 绑定规则
+  5.4 四条规则
+  5.5 绑定规则优先级
+  5.6 ES6 中的箭头函数
+6. [JavaScript深入之对象](https://github.com/winyuan/head-frist-javascript/blob/master/articles/深入系列/JavaScript深入之对象.md)
+  6.1 定义对象的方式
+  6.2 内置对象
+  6.3 对象内容（属性）
 
 ## 专题系列目录
 暂未开始
