@@ -33,9 +33,9 @@ Fighting Day By Day！
   ● 块作用域  
   ● 提升  
 4. [JavaScript深入之闭包](https://github.com/winyuan/head-frist-javascript/blob/master/articles/深入系列/JavaScript深入之闭包.md)  
-  4.1 什么是闭包  
-  4.2 循环和闭包（进阶）  
-  4.3 块作用域+闭包（常用）  
+  什么是闭包  
+  循环和闭包（进阶）  
+  块作用域+闭包（常用）  
 5. [JavaScript深入之this关键字](https://github.com/winyuan/head-frist-javascript/blob/master/articles/深入系列/JavaScript深入之this关键字.md)  
   5.1 关于this  
   5.2 调用位置  
