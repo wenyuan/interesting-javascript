@@ -24,15 +24,15 @@ Fighting Day By Day！
 
 ### JavaScript初级
 
-1. [JavaScript概述](https://github.com/winyuan/head-frist-javascript/blob/master/articles/深入系列/JavaScript概述.md)  
-2. [JavaScript数据类型](https://github.com/winyuan/head-frist-javascript/blob/master/articles/深入系列/JavaScript深入之数据类型.md)  
+1. [概述](https://github.com/winyuan/head-frist-javascript/blob/master/articles/基础系列/概述.md)  
+2. [数据类型](https://github.com/winyuan/head-frist-javascript/blob/master/articles/基础系列/数据类型.md)  
 
 ### JavaScript中级
 
-1. [JavaScript作用域](https://github.com/winyuan/head-frist-javascript/blob/master/articles/深入系列/JavaScript深入之作用域.md)  
-2. [JavaScript闭包](https://github.com/winyuan/head-frist-javascript/blob/master/articles/深入系列/JavaScript深入之闭包.md)  
-3. [JavaScript的this关键字](https://github.com/winyuan/head-frist-javascript/blob/master/articles/深入系列/JavaScript深入之this关键字.md)  
-4. [JavaScript对象](https://github.com/winyuan/head-frist-javascript/blob/master/articles/深入系列/JavaScript深入之对象.md)   
+1. [作用域](https://github.com/winyuan/head-frist-javascript/blob/master/articles/基础系列/作用域.md)  
+2. [闭包](https://github.com/winyuan/head-frist-javascript/blob/master/articles/基础系列/闭包.md)  
+3. [this关键字](https://github.com/winyuan/head-frist-javascript/blob/master/articles/基础系列/this关键字.md)  
+4. [对象](https://github.com/winyuan/head-frist-javascript/blob/master/articles/基础系列/对象.md)   
 
 ## 专题系列目录
 暂未开始
