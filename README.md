@@ -24,15 +24,15 @@ Fighting Day By Day！
 
 ### JavaScript初级
 
-1. [概述](https://github.com/winyuan/head-frist-javascript/blob/master/articles/基础系列/概述.md)  
-2. [数据类型](https://github.com/winyuan/head-frist-javascript/blob/master/articles/基础系列/数据类型.md)  
+1. [概述](https://github.com/winyuan/head-frist-javascript/blob/master/articles/基础系列/初级/概述.md)  
+2. [数据类型](https://github.com/winyuan/head-frist-javascript/blob/master/articles/基础系列/初级/数据类型.md)  
 
 ### JavaScript中级
 
-1. [作用域](https://github.com/winyuan/head-frist-javascript/blob/master/articles/基础系列/作用域.md)  
-2. [闭包](https://github.com/winyuan/head-frist-javascript/blob/master/articles/基础系列/闭包.md)  
-3. [this关键字](https://github.com/winyuan/head-frist-javascript/blob/master/articles/基础系列/this关键字.md)  
-4. [对象](https://github.com/winyuan/head-frist-javascript/blob/master/articles/基础系列/对象.md)   
+1. [作用域](https://github.com/winyuan/head-frist-javascript/blob/master/articles/基础系列/中级/作用域.md)  
+2. [闭包](https://github.com/winyuan/head-frist-javascript/blob/master/articles/基础系列/中级/闭包.md)  
+3. [this关键字](https://github.com/winyuan/head-frist-javascript/blob/master/articles/基础系列/中级/this关键字.md)  
+4. [对象](https://github.com/winyuan/head-frist-javascript/blob/master/articles/基础系列/中级/对象.md)   
 
 ## 专题系列目录
 暂未开始
