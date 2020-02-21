@@ -1,4 +1,4 @@
-# Head First JavaScript
+# Interesting JavaScript
 
 <p align="center">
   <img src="https://www.wenyuanblog.com/medias/logo/javascript.png" alt="wenyuanblog.com" width="160" hegiht="160"/>
@@ -7,46 +7,32 @@
 <p align="center">
   <img alt="language" src="https://img.shields.io/badge/language-md-brightgreen.svg?style=flat-square">
   <img alt="license" src="https://img.shields.io/badge/license-MIT-green.svg?style=flat-square">
-  <img alt="version" src="https://img.shields.io/badge/version-2019-blue.svg?style=flat-square">
+  <img alt="version" src="https://img.shields.io/badge/version-2020-blue.svg?style=flat-square">
   <img alt="keywords" src="https://img.shields.io/badge/keywords-javascript-blue.svg?style=flat-square">
 </p>
 
 > 深入浅出JavaScript，每天进步一点点！  
-> 预计从两个维度入手：JavaScript深入学习、JavaScript专题学习。
+> 预计从两个维度入手：JavaScript基础系列、JavaScript专题系列。
 
-## 进度
+## 一、进度
 JavaScript深入学习，进行中 。
 
 Fighting Day By Day！
 
 
-## 深入系列目录
-1. [JavaScript深入之序论](https://github.com/winyuan/head-frist-javascript/blob/master/articles/深入系列/JavaScript深入之序论.md)  
-2. [JavaScript深入之数据类型](https://github.com/winyuan/head-frist-javascript/blob/master/articles/深入系列/JavaScript深入之数据类型.md)  
-  数据类型概述  
-  数据类型详解  
-3. [JavaScript深入之作用域](https://github.com/winyuan/head-frist-javascript/blob/master/articles/深入系列/JavaScript深入之作用域.md)  
-  编译原理  
-  作用域  
-  词法作用域  
-  函数作用域  
-  块作用域  
-  提升  
-4. [JavaScript深入之闭包](https://github.com/winyuan/head-frist-javascript/blob/master/articles/深入系列/JavaScript深入之闭包.md)  
-  什么是闭包  
-  循环和闭包（进阶）  
-  块作用域+闭包（常用）  
-5. [JavaScript深入之this关键字](https://github.com/winyuan/head-frist-javascript/blob/master/articles/深入系列/JavaScript深入之this关键字.md)  
-  关于this  
-  调用位置  
-  绑定规则  
-  四条规则  
-  绑定规则优先级  
-  ES6 中的箭头函数  
-6. [JavaScript深入之对象](https://github.com/winyuan/head-frist-javascript/blob/master/articles/深入系列/JavaScript深入之对象.md)  
-  定义对象的方式  
-  内置对象  
-  对象内容（属性）  
+## 二、基础系列目录
+
+#### JavaScript初级
+
+1. [JavaScript概述](https://github.com/winyuan/head-frist-javascript/blob/master/articles/深入系列/JavaScript概述.md)  
+2. [JavaScript数据类型](https://github.com/winyuan/head-frist-javascript/blob/master/articles/深入系列/JavaScript深入之数据类型.md)  
+
+#### JavaScript中级
+
+1. [JavaScript作用域](https://github.com/winyuan/head-frist-javascript/blob/master/articles/深入系列/JavaScript深入之作用域.md)  
+2. [JavaScript闭包](https://github.com/winyuan/head-frist-javascript/blob/master/articles/深入系列/JavaScript深入之闭包.md)  
+3. [JavaScript的this关键字](https://github.com/winyuan/head-frist-javascript/blob/master/articles/深入系列/JavaScript深入之this关键字.md)  
+4. [JavaScript对象](https://github.com/winyuan/head-frist-javascript/blob/master/articles/深入系列/JavaScript深入之对象.md)   
 
 ## 专题系列目录
 暂未开始
