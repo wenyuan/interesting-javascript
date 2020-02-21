@@ -22,12 +22,12 @@ Fighting Day By Day！
 
 ## 二、基础系列目录
 
-#### JavaScript初级
+### JavaScript初级
 
 1. [JavaScript概述](https://github.com/winyuan/head-frist-javascript/blob/master/articles/深入系列/JavaScript概述.md)  
 2. [JavaScript数据类型](https://github.com/winyuan/head-frist-javascript/blob/master/articles/深入系列/JavaScript深入之数据类型.md)  
 
-#### JavaScript中级
+### JavaScript中级
 
 1. [JavaScript作用域](https://github.com/winyuan/head-frist-javascript/blob/master/articles/深入系列/JavaScript深入之作用域.md)  
 2. [JavaScript闭包](https://github.com/winyuan/head-frist-javascript/blob/master/articles/深入系列/JavaScript深入之闭包.md)  
