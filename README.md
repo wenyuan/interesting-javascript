@@ -24,7 +24,7 @@ Fighting Day By Day！
 
 ### JavaScript初级
 
-1. [概述](https://github.com/winyuan/head-frist-javascript/blob/master/articles/基础系列/初级/概述.md)  
+1. [JavaScript是什么](https://github.com/winyuan/head-frist-javascript/blob/master/articles/基础系列/初级/1.JavaScript是什么.md)  
 2. [数据类型](https://github.com/winyuan/head-frist-javascript/blob/master/articles/基础系列/初级/数据类型.md)  
 
 ### JavaScript中级
