@@ -11,8 +11,8 @@
   <img alt="keywords" src="https://img.shields.io/badge/keywords-javascript-blue.svg?style=flat-square">
 </p>
 
-> 深入浅出JavaScript，每天进步一点点！  
-> 预计从两个维度入手：JavaScript基础系列、JavaScript专题系列。
+> 从基础开始，深入浅出 JavaScript 知识点。
+> 做一个有扎实基本功的开发者，Day Day Up！
 
 ## 一、进度
 JavaScript深入学习，进行中 。
