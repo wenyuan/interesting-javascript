@@ -24,15 +24,15 @@ Fighting Day By Day！
 
 ### JavaScript初级
 
-1. [JavaScript是什么](https://github.com/winyuan/head-frist-javascript/blob/master/articles/基础系列/初级/1.JavaScript是什么.md)  
-2. [数据类型](https://github.com/winyuan/head-frist-javascript/blob/master/articles/基础系列/初级/2.数据类型.md)  
+1. [JavaScript是什么](https://github.com/winyuan/interesting-javascript/blob/master/articles/基础系列/初级/1.JavaScript是什么.md)  
+2. [数据类型](https://github.com/winyuan/interesting-javascript/blob/master/articles/基础系列/初级/2.数据类型.md)  
 
 ### JavaScript中级
 
-1. [作用域](https://github.com/winyuan/head-frist-javascript/blob/master/articles/基础系列/中级/作用域.md)  
-2. [闭包](https://github.com/winyuan/head-frist-javascript/blob/master/articles/基础系列/中级/闭包.md)  
-3. [this关键字](https://github.com/winyuan/head-frist-javascript/blob/master/articles/基础系列/中级/this关键字.md)  
-4. [对象](https://github.com/winyuan/head-frist-javascript/blob/master/articles/基础系列/中级/对象.md)   
+1. [作用域](https://github.com/winyuan/interesting-javascript/blob/master/articles/基础系列/中级/作用域.md)  
+2. [闭包](https://github.com/winyuan/interesting-javascript/blob/master/articles/基础系列/中级/闭包.md)  
+3. [this关键字](https://github.com/winyuan/interesting-javascript/blob/master/articles/基础系列/中级/this关键字.md)  
+4. [对象](https://github.com/winyuan/interesting-javascript/blob/master/articles/基础系列/中级/对象.md)   
 
 ## 专题系列目录
 暂未开始
