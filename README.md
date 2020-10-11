@@ -11,7 +11,7 @@
   <img alt="keywords" src="https://img.shields.io/badge/keywords-javascript-blue.svg?style=flat-square">
 </p>
 
-> 为增加可读性，本仓库已并入 [前端修炼小册](https://github.com/wenyuan/fedbook)仓库。  
+> 为增加可读性，本仓库已并入 [前端修炼小册](https://github.com/wenyuan/fedbook) 仓库。  
 > [在线预览](https://fedbook.cn/)
 
 ## 一、进度
