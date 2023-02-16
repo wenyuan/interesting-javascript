@@ -1,10 +1,6 @@
 # Interesting JavaScript
 
 <p align="center">
-  <img src="https://www.wenyuanblog.com/medias/logo/javascript.png" alt="wenyuanblog.com" width="160" hegiht="160"/>
-</p>
-
-<p align="center">
   <img alt="language" src="https://img.shields.io/badge/language-md-brightgreen.svg?style=flat-square">
   <img alt="license" src="https://img.shields.io/badge/license-MIT-green.svg?style=flat-square">
   <img alt="version" src="https://img.shields.io/badge/version-2020-blue.svg?style=flat-square">
@@ -39,9 +35,3 @@ Fighting Day By Day！
 
 ## 勘误及提问
 如果有疑问或者发现错误，可以在 issues 进行提问或勘误。
-
-如果喜欢或者有所启发，欢迎 star，对作者也是一种鼓励。
-
-## 友情链接
-* [我的博客主页](https://www.wenyuanblog.com/)
-* [我的博文列表](https://github.com/winyuan/blog)
